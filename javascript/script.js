@@ -154,4 +154,5 @@ $("#checkout").click(function () {
             + newOrder.topping + "<br>" + " Number of pizzas :    "
             + newOrder.quantity + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>");
-    });
+    };
+});
