@@ -139,8 +139,8 @@ $("#checkout").click(function () {
 	                totalPrice = totalPrice + 120;
 	                break;
 	       		}
-	//new order execution fnction
+	//new order execution function
         let newOrder = order(size, crust, topping, number, totalPrice);
-        console.log(newOrder); // test func
+        console.log(newOrder);
 
        
