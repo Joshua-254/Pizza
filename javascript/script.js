@@ -140,11 +140,11 @@ $("#checkout").click(function () {
 	                break;
 	       		}
 	//new order execution function
-        let newOrder = order(size, crust, topping, number, totalPrice);
+        let newOrder = order(size, crust, topping, quantity, totalPrice);
         console.log(newOrder);
 
       ///order list dropdown using append
-        $('.summary').slideDown(2000);
+        $('.summary').slideDown(200);
         $('#list').slideDown();
 
         $('#list').text(" ");
