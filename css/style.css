@@ -31,3 +31,8 @@ h2{
 	height: 600px;
 	padding-top:40px;
 }
+.CheckoutButton{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
