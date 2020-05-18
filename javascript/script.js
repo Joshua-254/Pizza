@@ -143,4 +143,15 @@ $("#checkout").click(function () {
         let newOrder = order(size, crust, topping, number, totalPrice);
         console.log(newOrder);
 
-       
+      ///order list dropdown using append
+        $('.summary').slideDown(2000);
+        $('#list').slideDown();
+
+        $('#list').text(" ");
+        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "size :   "
+            + newOrder.size + "<br>" + "Crust :     "
+            + newOrder.crust + "<br>" + "Toppings :     "
+            + newOrder.topping + "<br>" + " Number of pizzas :    "
+            + newOrder.quantity + "<br>" + "Total Price :  "
+            + newOrder.total + "<br><br>");
+    });
