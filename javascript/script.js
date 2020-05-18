@@ -16,9 +16,14 @@
 // *Sousage@100
 // *Bacon@120
 
+$(function () {
 $("#checkout").click(function () {
 	let size = $("#size option:selected").val();
 	let crust = $("#crust option:selected").val();
-	let topping = $("#toppings option:selected").val();
-	let number = $("#number").val();
+	let topping = $("#topping option:selected").val();
+	let quantity = $("#quantity option:selected").val();
 	console.log(size);
+        //checkout display 
+        let order = (size, crust, topping, qunity, total) => {
+            return {size, crust, topping, qunity, total};
+        };
