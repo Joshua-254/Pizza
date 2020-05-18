@@ -75,9 +75,8 @@ $("#checkout").click(function () {
                         }
                         break;
                 }
-                break;
             case taste = "hot":
-                    switch (size) {
+                switch (size) {
                     case size = "small":
                         price = 150;
                         if (crust === "thin") {
@@ -123,20 +122,21 @@ $("#checkout").click(function () {
                 }
                 break;           
 
-        switch (topping) {
-            case topping = "onions":
-                totalPrice = totalPrice + 50;
-                break;
-            case topping = "Pepperoni":
-                totalPrice = totalPrice + 150;
-                break;
-            case topping = "Mushroom":
-                totalPrice = totalPrice + 80;
-                break;
-            case topping = "Sousage":
-                totalPrice = totalPrice + 100;
-                break;
-            case topping = "Bacon":
-                totalPrice = totalPrice + 120;
-                break;
-         
+	        switch (topping) {
+	            case topping = "onions":
+	                totalPrice = totalPrice + 50;
+	                break;
+	            case topping = "Pepperoni":
+	                totalPrice = totalPrice + 150;
+	                break;
+	            case topping = "Mushroom":
+	                totalPrice = totalPrice + 80;
+	                break;
+	            case topping = "Sousage":
+	                totalPrice = totalPrice + 100;
+	                break;
+	            case topping = "Bacon":
+	                totalPrice = totalPrice + 120;
+	                break;
+	       		}
+	       	
