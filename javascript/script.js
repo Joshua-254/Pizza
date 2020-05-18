@@ -46,8 +46,82 @@ $("#checkout").click(function () {
                             totalPrice = price + 250;
                         }
                         break;
+                    case size = "medium":
+                        price = 200;
+                         if (crust === "thin") {
+                            totalPrice = price + 100;
+                        } else if (crust === "thick") {
+                            totalPrice = price + 150;
+                        } else if (crust === "cheese") {
+                            totalPrice = price + 180;
+                        } else if (crust === "stuffed") {
+                        	totalPrice = price + 300
+                        } else {
+                            totalPrice = price + 250;
+                        }
+                        break;
+                    case size = "large":
+                        price = 250;
+                         if (crust === "thin") {
+                            totalPrice = price + 100;
+                        } else if (crust === "thick") {
+                            totalPrice = price + 150;
+                        } else if (crust === "cheese") {
+                            totalPrice = price + 180;
+                        } else if (crust === "stuffed") {
+                        	totalPrice = price + 300
+                        } else {
+                            totalPrice = price + 250;
+                        }
+                        break;
                 }
                 break;
+            case taste = "hot":
+                    switch (size) {
+                    case size = "small":
+                        price = 150;
+                        if (crust === "thin") {
+                            totalPrice = price + 100;
+                        } else if (crust === "thick") {
+                            totalPrice = price + 150;
+                        } else if (crust === "cheese") {
+                            totalPrice = price + 180;
+                        } else if (crust === "stuffed") {
+                        	totalPrice = price + 300
+                        } else {
+                            totalPrice = price + 250;
+                        }
+                        break;
+                    case size = "medium":
+                        price = 200;
+                         if (crust === "thin") {
+                            totalPrice = price + 100;
+                        } else if (crust === "thick") {
+                            totalPrice = price + 150;
+                        } else if (crust === "cheese") {
+                            totalPrice = price + 180;
+                        } else if (crust === "stuffed") {
+                        	totalPrice = price + 300
+                        } else {
+                            totalPrice = price + 250;
+                        }
+                        break;
+                    case size = "large":
+                        price = 250;
+                         if (crust === "thin") {
+                            totalPrice = price + 100;
+                        } else if (crust === "thick") {
+                            totalPrice = price + 150;
+                        } else if (crust === "cheese") {
+                            totalPrice = price + 180;
+                        } else if (crust === "stuffed") {
+                        	totalPrice = price + 300
+                        } else {
+                            totalPrice = price + 250;
+                        }
+                        break;
+                }
+                break;           
 
         switch (topping) {
             case topping = "onions":
