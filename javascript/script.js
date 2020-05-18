@@ -1,15 +1,15 @@
-// //prizes
+/////////////prizes
 // Size prizes
 // *small@150
 // *medium@200
 // *large@250
-// crust prizes
+///// crust prizes
 // *Thick@200
 // *Thin@120
 // *Cheese@280
 // *Stuffed@300
 // *Deep@250
-// topping prizes
+////// topping prizes
 // *Onions@50
 // *Pepperoni@150
 // *Mushrooms@80
@@ -35,13 +35,30 @@ $("#checkout").click(function () {
                     case size = "small":
                         price = 150;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 120;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
-                        } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 200;
+                        } else if (crust === "Stuffed") {
+                            totalPrice = (price * number) + 300;
+                        }
                         } else {
                             totalPrice = (price * number) + 280;
-                        }
-                        break;
-                    
+                         }
+                         
+        switch (topping) {
+            case topping = "onions":
+                totalPrice = totalPrice + 50;
+                break;
+            case topping = "Pepperoni":
+                totalPrice = totalPrice + 150;
+                break;
+            case topping = "Mushroom":
+                totalPrice = totalPrice + 80;
+                break;
+            case topping = "Sousage":
+                totalPrice = totalPrice + 100;
+                break;
+            case topping = "Bacon":
+                totalPrice = totalPrice + 120;
+                break;
+         
