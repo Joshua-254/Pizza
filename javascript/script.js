@@ -28,23 +28,8 @@ $("#checkout").click(function () {
             return {size, crust, topping, qunity, total};
         };
         //check price
-        let price, totalPrice;
-        switch (size) {
-            case size = "small":
-                switch (size) {
-                    case size = "small":
-                        price = 150;
-                        if (crust === "thin") {
-                            totalPrice = (price * number) + 120;
-                        } else if (crust === "thick") {
-                            totalPrice = (price * number) + 200;
-                        } else if (crust === "Stuffed") {
-                            totalPrice = (price * number) + 300;
-                        }
-                        } else {
-                            totalPrice = (price * number) + 280;
-                         }
-                         
+
+
         switch (topping) {
             case topping = "onions":
                 totalPrice = totalPrice + 50;
